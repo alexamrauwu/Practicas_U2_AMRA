@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <meta name="description" content="Prácticas de la Unidad 2 de la materia de Programación Web">
+    <meta name="author" content="Alexa">
+    <meta name="keywords" content="Programación Web">
+    <link rel="stylesheet" type="text/css" href="estilos/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="estilos/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+   
+    <title>Fromulario</title>
+</head>
+<body>
+
+    <div class="col-md-5 offset-3"><br>
+        <center><label><font face="Verdana" size="6">Ingrese datos</font></label></center> <br><br>
+           <form action="index.php" method="GET" target="_blank">
+                    
+            <div class="form-group">
+            <label for="nombre"><font face="Arial">Nombre:</font></label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+            </div><br>
+        
+            <div class="form-group">
+            <label for=correo><font face="Arial">Email</font></label>
+            <input type="email" class="form-control" id="correo" name="correo" placeholder="example@example.ex">
+            </div><br>
+        
+            <div class="form-group">
+            <label for="fechaentrada"><font face="Arial">Fecha de ingreso</font></label>
+            <input type="date" class="form-control" id="fechai" name="fechai" placeholder="D/M/A">
+            </div><br>
+        
+            <div class="form-group">
+            <label for="fechasalida"><font face="Arial">Fecha salida:</font></label>
+            <input type="date" class="form-control" id="fechas" name="fechas" placeholder="D/M/A"><br>
+            </div>
+            <div class="form-group">
+            <label for="edad"><font face="Arial">Edad</font></label><br>
+            <input type="number" id="edad" name="edad"><br><br>
+            
+            <label>Estoy de acuerdo con las condiciones</label> <input type="radio" name="f" id="f"><br>
+
+            <label>Estoy de acuerdo con los terminos</label> <input type="checkbox" name="ff" id="ff"><br>
+             </div>       
+            <center><input type="submit" name="guardar" id="guardar" class=" btn-dark"></center> 
+           </form>
+         </div>  
+
+        </div>
+    
+
+
+</body>
+</html>
